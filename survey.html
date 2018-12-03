@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Everything About Bagels</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img id="logo" src="images/bagel.png" alt="bagel logo"></a>
+        <nav>
+            <ul>
+                <li><a href="photo-gallery.html">Photo Gallery</a></li>
+                <li><a href="locations.html">Locations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            
+            <div class="container">
+                <h1>Please Fill Out This Survey</h1>
+            </div>
+            
+            <div class="container">
+            <p>
+                <label for="firstname">First Name: </label>
+                <input type="text" name="firstname" id="firstname">
+            </p>
+            </div>
+            
+            <div class="container">
+            <p>
+                <label for="lastname">Last Name: </label>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+            </div>
+            
+            <div class="container">
+            <p>
+                <label for="email">E-mail: </label>
+                <input type="text" name="email" id="email">
+            </p>
+            </div>
+            <br>
+            <br>
+            
+            <div class="container">
+                <label for="mychoice">How hungry are you right now?</label>
+                <br>
+                <br>
+                <br>
+                Nah, I'm good <input type="range" name="mychoice" id="mychoice" min="1" max="100" value="90"> Very Hungry
+            
+            
+            </div>
+            <br>
+            
+            <div class="container">
+            <p>
+                <label for="favorite">What is your favorite kind of bagel?</label>
+                <select name="favorite" id="favorite">
+                    <option value="plain">Plain</option>
+                    <option value="poppy-seed">Poppy Seed</option>
+                    <option value="cinnamon-raisin">Cinnamon Raisin</option>
+                    <option value="egg">Egg</option>
+                    <option value="blueberry">Blueberry</option>
+                    <option value="everything">Everything</option>
+                </select>
+            </p>
+            </div>
+            <br>
+            <br>
+            
+            <div class="radio-buttons container">
+                <label id="helpful">Was this website helpful to you?</label>
+                <input type="radio" name="helpful" value="Yes" checked>Yes
+                <input type="radio" name="helpful" value="No">No
+            </div>
+            
+            <br>
+            <div class="container">
+            <p>
+                <label for="comments">Additional comments:</label>
+                <textarea name="comments" id="comments" rows="5" cols="30"></textarea>
+            </p>
+            </div>
+            
+            <br>
+
+            <div class="container">
+            <p>
+                <label></label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </p>
+            </div>
+            <br>
+
+
+        </form>
+    </main>
+
+    <footer>
+        &copy; 2018 Nazareth College - Kolleen Vogel
+    </footer>
+
+</body>
+
+</html>
