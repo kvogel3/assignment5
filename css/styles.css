@@ -69,7 +69,7 @@ footer {
 }
 
 .right {
-    justify-content: :center;
+    justify-content: center;
     text-align: right;
     margin-left:180px;
     margin-right: 310px;
@@ -79,7 +79,7 @@ footer {
 }
 
 .hungry {
-    justify-content: :center;
+    justify-content: center;
     text-align: right;
     margin-left:180px;
     margin-right: 300px;
@@ -90,7 +90,7 @@ footer {
 }
 
 .center {
-    justify-content: :center;
+    justify-content: center;
     text-align: right;
     margin-left:180px;
     margin-right: 250px;
