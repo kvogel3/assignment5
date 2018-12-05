@@ -68,6 +68,37 @@ footer {
     justify-content: center;
 }
 
+.right {
+    justify-content: :center;
+    text-align: right;
+    margin-left:180px;
+    margin-right: 310px;
+    border-radius: 15px;
+    flex: 2;
+    margin-bottom: 30px;
+}
+
+.hungry {
+    justify-content: :center;
+    text-align: right;
+    margin-left:180px;
+    margin-right: 300px;
+    border-radius: 15px;
+    flex: 2;
+    margin-bottom: 30px;
+
+}
+
+.center {
+    justify-content: :center;
+    text-align: right;
+    margin-left:180px;
+    margin-right: 250px;
+    border-radius: 15px;
+    flex: 2;
+    margin-bottom: 30px;
+}
+
 p {
     max-width: 600px;
 }
